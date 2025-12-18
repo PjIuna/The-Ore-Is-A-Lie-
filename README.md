@@ -46,7 +46,7 @@ Perfect for survival, hardcore, and modpack fun
 
 Feel free to contribute if you want to:
 
-•Add new fake ore types
+• Add new fake ore types
 
 • Create more randomized outcomes
 
