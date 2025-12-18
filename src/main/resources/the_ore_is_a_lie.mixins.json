@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "package": "net.mcreator.theoreisalie.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "the_ore_is_a_lie.refmap.json",
+  "mixins": [
+    "RepairItemRecipeMixin",
+    "ServerPlayerMixin",
+    "LivingEntityMixin",
+    "PlayerMixin",
+    "ItemStackMixin",
+    "BlockItemMixin",
+    "BoneMealItemMixin",
+    "CommandsMixin",
+    "ExperienceOrbMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8.4"
+}

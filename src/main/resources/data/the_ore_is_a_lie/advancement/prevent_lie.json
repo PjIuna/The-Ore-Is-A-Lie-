@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:heart_of_the_sea"
+    },
+    "title": {
+      "translate": "advancements.prevent_lie.title"
+    },
+    "description": {
+      "translate": "advancements.prevent_lie.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "prevent_lie_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "parent": "minecraft:adventure/adventuring_time"
+}

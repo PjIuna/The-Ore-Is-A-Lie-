@@ -1,0 +1,24 @@
+{
+  "_fv": 79,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Tricked!",
+    "achievementDescription": "Mine a fake ore, but get nothing to happen.",
+    "achievementIcon": {
+      "value": "Items.HEART_OF_THE_SEA"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 50,
+    "achievementType": "goal",
+    "parent": {
+      "value": "adventure/adventuring_time"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"317\" y=\"82\"><next><block type=\"custom_trigger\"></block></next></block></xml>"
+  }
+}

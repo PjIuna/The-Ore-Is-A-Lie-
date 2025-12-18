@@ -1,0 +1,279 @@
+{
+  "mod_elements": [
+    {
+      "name": "LieEmeraldOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lie_emerald_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_ore_is_a_lie/models/block/lie_emerald_ore.json",
+          "src/main/resources/assets/the_ore_is_a_lie/items/lie_emerald_ore.json",
+          "src/main/resources/assets/the_ore_is_a_lie/models/item/lie_emerald_ore.json",
+          "src/main/resources/data/the_ore_is_a_lie/worldgen/configured_feature/lie_emerald_ore.json",
+          "src/main/java/net/mcreator/theoreisalie/block/LieEmeraldOreBlock.java",
+          "src/main/resources/data/the_ore_is_a_lie/loot_table/blocks/lie_emerald_ore.json",
+          "src/main/resources/data/the_ore_is_a_lie/worldgen/placed_feature/lie_emerald_ore.json",
+          "src/main/resources/assets/the_ore_is_a_lie/blockstates/lie_emerald_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "LieEmeraldOrePlayerStartsToDestroy",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lie_emerald_ore_player_starts_to_destroy",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/theoreisalie/procedures/LieEmeraldOrePlayerStartsToDestroyProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "PreventLie",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prevent_lie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_ore_is_a_lie/advancement/prevent_lie.json"
+        ]
+      }
+    },
+    {
+      "name": "LieDiamondOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lie_diamond_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_ore_is_a_lie/items/lie_diamond_ore.json",
+          "src/main/resources/data/the_ore_is_a_lie/worldgen/configured_feature/lie_diamond_ore.json",
+          "src/main/resources/data/the_ore_is_a_lie/worldgen/placed_feature/lie_diamond_ore.json",
+          "src/main/resources/assets/the_ore_is_a_lie/blockstates/lie_diamond_ore.json",
+          "src/main/resources/data/the_ore_is_a_lie/loot_table/blocks/lie_diamond_ore.json",
+          "src/main/java/net/mcreator/theoreisalie/block/LieDiamondOreBlock.java",
+          "src/main/resources/assets/the_ore_is_a_lie/models/item/lie_diamond_ore.json",
+          "src/main/resources/assets/the_ore_is_a_lie/models/block/lie_diamond_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "LieGoldOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lie_gold_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_ore_is_a_lie/models/block/lie_gold_ore.json",
+          "src/main/resources/data/the_ore_is_a_lie/loot_table/blocks/lie_gold_ore.json",
+          "src/main/resources/assets/the_ore_is_a_lie/blockstates/lie_gold_ore.json",
+          "src/main/java/net/mcreator/theoreisalie/block/LieGoldOreBlock.java",
+          "src/main/resources/assets/the_ore_is_a_lie/items/lie_gold_ore.json",
+          "src/main/resources/data/the_ore_is_a_lie/worldgen/configured_feature/lie_gold_ore.json",
+          "src/main/resources/data/the_ore_is_a_lie/worldgen/placed_feature/lie_gold_ore.json",
+          "src/main/resources/assets/the_ore_is_a_lie/models/item/lie_gold_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "LieCoalOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lie_coal_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_ore_is_a_lie/worldgen/placed_feature/lie_coal_ore.json",
+          "src/main/resources/assets/the_ore_is_a_lie/blockstates/lie_coal_ore.json",
+          "src/main/resources/data/the_ore_is_a_lie/loot_table/blocks/lie_coal_ore.json",
+          "src/main/resources/data/the_ore_is_a_lie/worldgen/configured_feature/lie_coal_ore.json",
+          "src/main/resources/assets/the_ore_is_a_lie/models/item/lie_coal_ore.json",
+          "src/main/resources/assets/the_ore_is_a_lie/items/lie_coal_ore.json",
+          "src/main/resources/assets/the_ore_is_a_lie/models/block/lie_coal_ore.json",
+          "src/main/java/net/mcreator/theoreisalie/block/LieCoalOreBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "LieIronOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lie_iron_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_ore_is_a_lie/models/block/lie_iron_ore.json",
+          "src/main/resources/data/the_ore_is_a_lie/loot_table/blocks/lie_iron_ore.json",
+          "src/main/java/net/mcreator/theoreisalie/block/LieIronOreBlock.java",
+          "src/main/resources/assets/the_ore_is_a_lie/items/lie_iron_ore.json",
+          "src/main/resources/assets/the_ore_is_a_lie/blockstates/lie_iron_ore.json",
+          "src/main/resources/data/the_ore_is_a_lie/worldgen/configured_feature/lie_iron_ore.json",
+          "src/main/resources/data/the_ore_is_a_lie/worldgen/placed_feature/lie_iron_ore.json",
+          "src/main/resources/assets/the_ore_is_a_lie/models/item/lie_iron_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "LieRedstoneOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lie_redstone_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_ore_is_a_lie/items/lie_redstone_ore.json",
+          "src/main/resources/data/the_ore_is_a_lie/worldgen/placed_feature/lie_redstone_ore.json",
+          "src/main/java/net/mcreator/theoreisalie/block/LieRedstoneOreBlock.java",
+          "src/main/resources/data/the_ore_is_a_lie/loot_table/blocks/lie_redstone_ore.json",
+          "src/main/resources/data/the_ore_is_a_lie/worldgen/configured_feature/lie_redstone_ore.json",
+          "src/main/resources/assets/the_ore_is_a_lie/models/block/lie_redstone_ore.json",
+          "src/main/resources/assets/the_ore_is_a_lie/models/item/lie_redstone_ore.json",
+          "src/main/resources/assets/the_ore_is_a_lie/blockstates/lie_redstone_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "LieLapisOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lie_lapis_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_ore_is_a_lie/models/item/lie_lapis_ore.json",
+          "src/main/resources/assets/the_ore_is_a_lie/blockstates/lie_lapis_ore.json",
+          "src/main/resources/assets/the_ore_is_a_lie/models/block/lie_lapis_ore.json",
+          "src/main/resources/data/the_ore_is_a_lie/worldgen/placed_feature/lie_lapis_ore.json",
+          "src/main/java/net/mcreator/theoreisalie/block/LieLapisOreBlock.java",
+          "src/main/resources/data/the_ore_is_a_lie/loot_table/blocks/lie_lapis_ore.json",
+          "src/main/resources/assets/the_ore_is_a_lie/items/lie_lapis_ore.json",
+          "src/main/resources/data/the_ore_is_a_lie/worldgen/configured_feature/lie_lapis_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "LieCopperOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lie_copper_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theoreisalie/block/LieCopperOreBlock.java",
+          "src/main/resources/assets/the_ore_is_a_lie/models/block/lie_copper_ore.json",
+          "src/main/resources/data/the_ore_is_a_lie/worldgen/configured_feature/lie_copper_ore.json",
+          "src/main/resources/data/the_ore_is_a_lie/loot_table/blocks/lie_copper_ore.json",
+          "src/main/resources/data/the_ore_is_a_lie/worldgen/placed_feature/lie_copper_ore.json",
+          "src/main/resources/assets/the_ore_is_a_lie/items/lie_copper_ore.json",
+          "src/main/resources/assets/the_ore_is_a_lie/blockstates/lie_copper_ore.json",
+          "src/main/resources/assets/the_ore_is_a_lie/models/item/lie_copper_ore.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.the_ore_is_a_lie.lie_emerald_ore": "Lie Emerald Ore",
+      "advancements.prevent_lie.descr": "Mine a fake ore, but get nothing to happen.",
+      "advancements.prevent_lie.title": "Tricked!",
+      "item.the_ore_is_a_lie.lie_diamond_ore": "Lie Emerald Ore",
+      "item.the_ore_is_a_lie.lie_gold_ore": "Lie Emerald Ore",
+      "item.the_ore_is_a_lie.lie_coal_ore": "Lie Emerald Ore",
+      "item.the_ore_is_a_lie.lie_iron_ore": "Lie Emerald Ore",
+      "item.the_ore_is_a_lie.lie_redstone_ore": "Lie Emerald Ore",
+      "item.the_ore_is_a_lie.lie_lapis_ore": "Lie Emerald Ore",
+      "item.the_ore_is_a_lie.lie_copper_ore": "Lie Emerald Ore",
+      "block.the_ore_is_a_lie.lie_emerald_ore": "Lie Emerald Ore",
+      "block.the_ore_is_a_lie.lie_diamond_ore": "Lie Emerald Ore",
+      "block.the_ore_is_a_lie.lie_gold_ore": "Lie Emerald Ore",
+      "block.the_ore_is_a_lie.lie_coal_ore": "Lie Emerald Ore",
+      "block.the_ore_is_a_lie.lie_iron_ore": "Lie Emerald Ore",
+      "block.the_ore_is_a_lie.lie_redstone_ore": "Lie Emerald Ore",
+      "block.the_ore_is_a_lie.lie_lapis_ore": "Lie Emerald Ore",
+      "block.the_ore_is_a_lie.lie_copper_ore": "Lie Emerald Ore"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/theoreisalie/init/TheOreIsALieModBlocksRenderers.java",
+      "src/main/java/net/mcreator/theoreisalie/init/TheOreIsALieModBlocks.java",
+      "src/main/java/net/mcreator/theoreisalie/mixin/RepairItemRecipeMixin.java",
+      "src/main/java/net/mcreator/theoreisalie/mixin/ServerPlayerMixin.java",
+      "src/main/java/net/mcreator/theoreisalie/init/TheOreIsALieModItems.java",
+      "src/main/java/net/mcreator/theoreisalie/mixin/PlayerMixin.java",
+      "src/main/resources/fabric.mod.json",
+      "src/main/java/net/mcreator/theoreisalie/init/TheOreIsALieModFeatures.java",
+      "src/main/java/net/mcreator/theoreisalie/mixin/CommandsMixin.java",
+      "src/main/java/net/mcreator/theoreisalie/TheOreIsALieMod.java",
+      "src/main/java/net/mcreator/theoreisalie/event/BlockEvents.java",
+      "src/main/java/net/mcreator/theoreisalie/event/ItemEvents.java",
+      "src/main/resources/META-INF/the_ore_is_a_lie.accesswidener",
+      "src/main/resources/the_ore_is_a_lie.mixins.json",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/theoreisalie/TheOreIsALieModClient.java",
+      "src/main/java/net/mcreator/theoreisalie/event/MiscEvents.java",
+      "src/main/java/net/mcreator/theoreisalie/mixin/BoneMealItemMixin.java",
+      "src/main/java/net/mcreator/theoreisalie/event/LivingEntityEvents.java",
+      "src/main/java/net/mcreator/theoreisalie/mixin/BlockItemMixin.java",
+      "src/main/java/net/mcreator/theoreisalie/mixin/LivingEntityMixin.java",
+      "src/main/java/net/mcreator/theoreisalie/event/PlayerEvents.java",
+      "src/main/java/net/mcreator/theoreisalie/mixin/ItemStackMixin.java",
+      "src/main/java/net/mcreator/theoreisalie/mixin/ExperienceOrbMixin.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "the_ore_is_a_lie",
+    "modName": "The Ore Is A Lie!",
+    "version": "1.0.0",
+    "description": "\"The Ore Is A Lie!\" adds deceptive ores to Minecraft that look completely normal… until you mine them. These “fake ores” spawn naturally alongside real ones, blending perfectly into caves and veins. The only way to know the truth is to take the risk.",
+    "author": "Pjluna",
+    "websiteURL": "https://github.com/PjIuna/The-Ore-Is-A-Lie-",
+    "license": "Apache License version 2.0",
+    "serverSideOnly": false,
+    "modPicture": "theoreisalie",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.21.8",
+    "credits": "Not recommended with any mod that allows you to see what block/item you are looking at.",
+    "modElementsPackage": "net.mcreator.theoreisalie"
+  },
+  "mcreatorVersion": 202500345720
+}

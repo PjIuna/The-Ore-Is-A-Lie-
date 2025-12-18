@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "the_ore_is_a_lie:blocks/lie_redstone_ore",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dead_bush"
+        }
+      ]
+    }
+  ]
+}

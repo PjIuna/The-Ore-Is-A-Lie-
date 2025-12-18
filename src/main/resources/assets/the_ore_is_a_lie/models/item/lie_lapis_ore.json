@@ -1,0 +1,22 @@
+{
+  "parent": "the_ore_is_a_lie:block/lie_lapis_ore",
+  "display": {
+    "thirdperson": {
+      "rotation": [
+        10,
+        -45,
+        170
+      ],
+      "translation": [
+        0,
+        1.5,
+        -2.75
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    }
+  }
+}

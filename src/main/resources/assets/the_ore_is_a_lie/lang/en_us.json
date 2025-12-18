@@ -1,0 +1,20 @@
+{
+  "item.the_ore_is_a_lie.lie_emerald_ore": "Lie Emerald Ore",
+  "advancements.prevent_lie.descr": "Mine a fake ore, but get nothing to happen.",
+  "advancements.prevent_lie.title": "Tricked!",
+  "item.the_ore_is_a_lie.lie_diamond_ore": "Lie Emerald Ore",
+  "item.the_ore_is_a_lie.lie_gold_ore": "Lie Emerald Ore",
+  "item.the_ore_is_a_lie.lie_coal_ore": "Lie Emerald Ore",
+  "item.the_ore_is_a_lie.lie_iron_ore": "Lie Emerald Ore",
+  "item.the_ore_is_a_lie.lie_redstone_ore": "Lie Emerald Ore",
+  "item.the_ore_is_a_lie.lie_lapis_ore": "Lie Emerald Ore",
+  "item.the_ore_is_a_lie.lie_copper_ore": "Lie Emerald Ore",
+  "block.the_ore_is_a_lie.lie_emerald_ore": "Lie Emerald Ore",
+  "block.the_ore_is_a_lie.lie_diamond_ore": "Lie Emerald Ore",
+  "block.the_ore_is_a_lie.lie_gold_ore": "Lie Emerald Ore",
+  "block.the_ore_is_a_lie.lie_coal_ore": "Lie Emerald Ore",
+  "block.the_ore_is_a_lie.lie_iron_ore": "Lie Emerald Ore",
+  "block.the_ore_is_a_lie.lie_redstone_ore": "Lie Emerald Ore",
+  "block.the_ore_is_a_lie.lie_lapis_ore": "Lie Emerald Ore",
+  "block.the_ore_is_a_lie.lie_copper_ore": "Lie Emerald Ore"
+}
